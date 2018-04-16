@@ -1,0 +1,292 @@
+.fakeLink
+{
+	color:#337ab7;
+	cursor:pointer;
+}
+
+#domainAvailabilityPowerBarHeading
+{
+	margin-top:20px;
+}
+
+#domainAvailabilityPowerBarContent
+{
+}
+
+.sk-folding-cube {
+  margin: 20px auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+}
+
+.sk-folding-cube .sk-cube {
+  float: left;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.sk-folding-cube .sk-cube:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+          animation: sk-foldCubeAngle 2.4s infinite linear both;
+  -webkit-transform-origin: 100% 100%;
+      -ms-transform-origin: 100% 100%;
+          transform-origin: 100% 100%;
+}
+.sk-folding-cube .sk-cube2 {
+  -webkit-transform: scale(1.1) rotateZ(90deg);
+          transform: scale(1.1) rotateZ(90deg);
+}
+.sk-folding-cube .sk-cube3 {
+  -webkit-transform: scale(1.1) rotateZ(180deg);
+          transform: scale(1.1) rotateZ(180deg);
+}
+.sk-folding-cube .sk-cube4 {
+  -webkit-transform: scale(1.1) rotateZ(270deg);
+          transform: scale(1.1) rotateZ(270deg);
+}
+.sk-folding-cube .sk-cube2:before {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+.sk-folding-cube .sk-cube3:before {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+.sk-folding-cube .sk-cube4:before {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+@-webkit-keyframes sk-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+            transform: perspective(140px) rotateX(-180deg);
+    opacity: 0;
+  } 25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+            transform: perspective(140px) rotateX(0deg);
+    opacity: 1;
+  } 90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+            transform: perspective(140px) rotateY(180deg);
+    opacity: 0;
+  }
+}
+
+@keyframes sk-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+            transform: perspective(140px) rotateX(-180deg);
+    opacity: 0;
+  } 25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+            transform: perspective(140px) rotateX(0deg);
+    opacity: 1;
+  } 90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+            transform: perspective(140px) rotateY(180deg);
+    opacity: 0;
+  }
+}
+
+
+/**
+ * Progress bars with centered text
+ */
+
+.progress {
+    position: relative;
+}
+
+.progress span {
+    position: absolute;
+    display: block;
+    width: 100%;
+    color: #333;
+ }
+
+.powerBarTldContainerStatusTaken
+{
+	background-color: #8E8E8E;
+}
+
+.powerBarTldContainerStatusAvailable
+{
+	color: white;
+	background-color: #337ab7;
+	cursor: pointer;
+}
+
+.powerBarTldContainerStatus
+{
+	padding-top: 9px;
+	font-size: 12px;
+	border-top: 1px solid gray;
+	height: 40%;
+}
+
+.powerBarTldContainerPrice
+{
+	font-size: 12px;
+	height: 30%;
+}
+
+.powerBarTldContainerTld
+{
+	padding-top: 5px;
+	font-size: 18px;
+	height: 30%;
+}
+
+.powerBarTldContainer
+{
+	border: 1px solid gray;
+	width: 135px;
+	height: 90px;
+	display: inline-block;
+	margin: 2px;
+	color: #595959;
+	background-color: white;
+	margin-bottom: 15px;
+}
+
+#domainAvailabilityPowerBar
+{
+	background-color: #363636;
+}
+
+#domainAvailabilityPowerBarTlds
+{
+	padding: 10px;
+	background-color: #363636;
+}
+
+.rawWhois
+{
+    	display: block;
+    	font-size: 13px;
+    	line-height: 1.42857143;
+    	color: #333;
+	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+
+.queryResponseHeader
+{
+	background-color: #e7e8e8;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.queryResponseHeaderSide
+{
+	background-color: #e7e8e8;
+	padding: 8px;
+}
+
+.queryResponseContainer
+{
+	border: 1px solid #dbdcdc;
+    max-width: 950px;
+    margin-left: 25%;
+}
+
+.queryResponseBody
+{
+	background-color: #f6f6f6;
+}
+
+.queryResponseBodySide
+{
+	background-color: #f6f6f6;
+	padding: 8px;
+}
+
+.queryResponseBodyRow
+{
+	padding: 6px 0px 6px 0px;
+}
+
+.queryResponseBodyKey
+{
+}
+
+.queryResponseBodyValue
+{
+}
+
+.home-search-container
+{
+	padding: 20px 0 20px 0;
+}
+
+.home-video-blurb
+{
+	background-color: #262626;
+	padding: 15px 0 15px 0;
+}
+
+.home-blurb
+{
+        padding: 50px 0 50px 0;
+}
+
+.home-icon-blurbs
+{
+        background-color: #ebebeb;
+        text-align: center;
+        padding: 20px 0 20px 0;
+}
+
+.teaser-bar
+{
+	background-color: #0099F1;
+	color:white;
+        padding-bottom: 7px;
+        padding-top: 7px;
+}
+
+.footer-menu-link
+{
+	margin-right:10px;
+}
+
+body
+{
+  	padding-top: 50px;
+}
+
+.footer
+{
+	background-color: rgb(231, 231, 232);
+    	border-top: 1px solid #ccc;
+    	padding: 30px 0;
+}
+
+.navbar-brand
+{
+	padding-top: 8px;
+}
+
+.position-relative
+{
+	position: relative;
+}
+
+.vertical-align
+{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}

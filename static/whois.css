@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+/*search-write-wrap-begin*/
+
+.search-write-wrap{margin:0 auto; display:block; }
+.search-write-left,.search-write-right,.search-write-choese{display:inline-block;font: 16px arial; margin:0;zoom:1;}
+.search-write-left{width:470px; border:solid #c6cede;height: 38px; border-width:1px 0px 1px 1px;border-image: none;background: #FFF; vertical-align: top;overflow: hidden;}
+.search-write-cont{width: 447px; height: 25px; margin: 6px 0px 0px 10px; padding: 0px; background: transparent none repeat scroll 0% 0%; border: 0px none; outline: 0px none;}
+.search-write-right{width:90px;}
+.search-write-btn{width:90px; background:#55a7e3; color:#fff;font-size: 14px;height:40px;padding: 0px;border: 0px none;cursor: pointer;}
+.search-write-btn:hover{background-color:#2f87c1;}
+.quickdelete{background:url(../images/public/quickdelete.png) 7px 12px #fff no-repeat; width:32px; height:32px; position:absolute; right:0; top:0;}
+.search-hint,.search-hint02{font-size:14px; color:#c0c1c4; position:absolute; left:13px; margin-top:10px;letter-spacing:normal; font-weight:normal; z-index:0; top:0;}
+.search-write-choese{height:40px; z-index:3;}
+.search-choese-cont{cursor: pointer; padding: 5px 7px; width: 90px;color:#747d87;height:28px;line-height:28px;font-size:14px;border:solid #c6cede;border-width:1px 0px 1px 1px; letter-spacing:normal;display: inline-block;-webkit-user-select:none;-moz-user-select:none;}
+.icon-drop-down{position: absolute;right: 10px;top: 17px;overflow: hidden;width: 0px;height: 0px;cursor: pointer;border-width: 5px 4px 0px;border-color: #999999 #FFF;border-style: solid;display: block;}
+.search-choese-down{position: absolute;top: 40px;width:104px;left: 0px;right: 0px; display:none;border:solid #c6cede;border-width:0px 1px 1px 1px;list-style-type: none;padding: 0px;margin: 0px;z-index: 1;font-size:14px;background: #FFF none repeat scroll 0% 0%;overflow: auto;max-height: 220px;letter-spacing:normal;}
+.search-choese-down li{line-height:30px;cursor: pointer;text-align:left;}
+.search-choese-down li:hover{background: #f5f5f5;}
+.search-choese-down li a{color:#747d87;padding-left: 7px; display:block;}
+.search-choese-down li a:hover{text-decoration:none;}
+/*search-write-wrap-end*/
+
+/*WhoisWrap-begin*/
+.WhoisWrap{ padding:10px;}
+.WhoisHead{ height:30px; width:1180px; padding-bottom:5px;}
+.WhoisHead .Titleft{ font-size:18px; line-height:30px; display:inline-block;}
+.WhoisLeft{ border:1px solid #e8e8e8; width:851px;font-family: 'Microsoft YaHei';}
+.WhoisLeft li{ /*overflow:hidden;*/ *margin-top:-4px;}
+.WhoisLeft .WhLeList-left{ width:170px; text-align:right; padding:5px 20px 5px 10px; height:30px; line-height:30px; font-size:14px; color:#56688a;}
+
+.QhintCent{ height: auto;color: #56688a; position: absolute;padding: 7px;left: 10%;bottom: 22px;line-height: 20px;background-color: #fff; border:1px solid #51BE86;}
+
+.WhoisLeft .WhLeList-right{ width:620px;padding:5px 10px 5px 20px; line-height:30px; border-left:1px solid #e8e8e8; font-size:14px; color:#56688a;}
+.WhoisLeft .WhLeList-right span{ color:#444444; padding-right:5px;}
+.OtherSuf{ height:24px;}
+.OtherSuf span{padding:0px 3px;color:#56688a !important;}
+.OtherSuf a{padding:0px 3px; background-color:#fff; margin-right:5px; font-size:14px;border: 1px solid #A9CDE8; color:#56688a;}
+.OtherSuf a:hover,.WhoisRightSite .keyci a:hover,.WhoisRightOther a:hover{ text-decoration:none; background-color:#55a7e3; color:#fff !important;}
+.MoreInfo{ font-size:14px; line-height:30px; padding:20px; border:1px dashed #e8e8e8; width:770px; margin:0px auto 20px auto; overflow:hidden; background-color:#fff;}
+/*pusmall*/
+.pusmall .WhoisLeft{width:651px;}
+.pusmall .WhoisLeft .WhLeList-right{ width:480px;}
+.pusmall .WhoisLeft .WhLeList-left{ width:100px;}
+.pusmall .WhoisLeft .MoreInfo{ width:589px;}
+.pusmall .WhoisHead{ width:980px;}
+
+.WhoisRight{ width:293px; padding:10px; border:1px solid #e8e8e8;}
+.WhoisRightHead{ font-size:16px; overflow:hidden; padding-bottom:5px;}
+.WhoisRightHead .iconi{ width:4px; height:18px; margin-top:2px; margin-right:8px; display:inline-block; float:left; background-color:#55a7e3;}
+.WhoisRightHead span{ display:inline-block; float:left; color:#56688a;}
+.WhoisRightSite{ overflow:hidden; padding:10px 5px;}
+.WhoisRightSite h5{ font-size:12px; color:#929db3; padding:5px 0px; line-height:20px;}
+.WhoisRightSite  p{line-height:24px; color:#56688a; padding:7px 0px 7px 24px;}
+.WhoisRightSite .keyci a{ padding:0px 3px; display:inline-block; background-color:#EAEFFA; margin-right:10px; margin-bottom:10px;}
+.WhoisRightOther{ padding:15px 0px;}
+.WhoisRightOther a{ margin-right:15px; display:inline-block; margin-bottom:10px;padding:0px 5px; border: 1px solid #eaeffa; color:#56688a;}
+
+ /*whoisfancha*/
+.ResultListWrap .WhoListCent{*margin-top:-4px;}
+.ResultListWrap .WhoHead div,.ResultListWrap .Wholist div{ display:inline-block; float:left; padding-left:10px; padding-right:10px; text-align:left;}
+.ResultListWrap .WhoHead:hover{ background-color:#c6cede;}
+.ResultListWrap .WhoHead{ color:#56688a; background-color:#c6cede; padding:10px 0px; overflow:hidden;}
+.ResultListWrap .Wholist{ color:#747d87;  height:55px; overflow:hidden;line-height:55px; }
+.pusmall .ResultListWrap .Wholist{ color:#747d87;  height:45px; overflow:hidden;line-height:45px; }
+.ResultListWrap .Wholist a{ word-break: break-all;}
+.ResultListWrap .Wholist a:hover{ color:#0474c8;}
+
+
+/*pusmall*/
+.pusmall .ResultListWrap .WhoHead div.w230,.pusmall .ResultListWrap .Wholist div.w230{ width:150px;}
+.pusmall .ResultListWrap .WhoHead div.w100,.pusmall .ResultListWrap .Wholist div.w100{ width:90px !important;}
+.pusmall .ResultListWrap .WhoHead div.w280,.pusmall .ResultListWrap .Wholist div.w280{ width:240px !important;}
+.pusmall .ResultListWrap .WhoHead div.w70,.pusmall .ResultListWrap .Wholist div.w70{ width:50px;}
+
+.Wholist .midImg{ display:table-cell !important; float:none !important;*height:40px; vertical-align:middle; *padding:0;}
+.Wholist .midImg img{ vertical-align:middle;}
+
+.Wholist .upd{ width:20px; height:20px; display:inline-block; background:url(../images/public/ico-icpup.png) no-repeat; margin-top:10px;}
+.Wholist .upd:hover{ }
+
+
+
+
+.turnrev a{
+    display: inline-block;
+    color: #808080;
+    margin-right: 1.7rem;
+    margin-bottom: 0.5rem;
+    padding: 0.4rem 0.7rem;
+    text-decoration:none;
+}
+.turnrev a.Curt{
+    color:#fff;
+    background-color: #55a7e3;
+}
+.turnrev a:hover{
+    color:#338de6;
+    background-color: #f2f2f2;
+}
+
+
+
+/*2017-03-09 begin*/
+.ResultListWrap .Wholist .listOther{ padding: 8px 0; line-height: 22px; word-break: break-all;}
+.ResultListWrap .Wholist .listOther a{ display: block; }
+
+    .ResultListWrap .WhoHead div,.ResultListWrap .Wholist div{text-align:left; padding:0 8px; word-break: break-all;}
+    .pusmall .ResultListWrap .WhoHead div,.pusmall .ResultListWrap .Wholist div{text-align:left; padding:0 5px;}
+    .domain{}
+    .man{}
+    .postbox{}
+    .trader{}
+    .dns{}
+    .phone{}
+
+
+
+.layui-layer-tips .layui-layer-content{border: 1px solid #ddd !important;background-color: #fff !important;color: #747d87 !important;font-size:13px;}
+.layui-layer-tips i.layui-layer-TipsL, .layui-layer-tips i.layui-layer-TipsR{top: 1px;border-bottom-style: solid;border-bottom-color: #ddd;z-index:-1 !important}
+
+/*2017-03-09 end*/

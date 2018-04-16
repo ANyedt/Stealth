@@ -1,0 +1,447 @@
+body{
+	margin: 10px;
+	padding: 0px;
+	font-family: arial, helvetica, sans-serif;
+	color: #303030;
+	background-color: #DFEBFF;
+	font-size: 0.75em;
+	font-weight: normal;
+	line-height: 1.5em;
+	min-width: 600px;
+	border: 1px solid #cacaca;
+}
+
+/****************************
+ * TEXT ELEMENTS
+ ****************************/
+
+a, a:link {
+	color: #0040AF;
+	text-decoration: none;
+}
+a:hover {
+	color: #F38B18;
+	text-decoration: none;
+}
+
+p{
+	/*font-size: small;*/
+	line-height: 1.5em;
+	text-align: justify;
+}
+
+h1, h2 {
+	background: #FFFFFF;
+	color: #000088;
+	font-size: 1.9em;
+	text-align: left;
+	font-weight: normal;
+	padding: 0;
+	margin: 20px 0px 15px 0px;
+	letter-spacing: 0.02em;
+        line-height: 1.1em;
+}
+
+h3, .blogsubtitle{
+	font-size: 1.4em;
+	font-weight: bold;
+	text-align: left;
+	margin: 18px 0 0 0;
+	padding: 0;
+	letter-spacing: 0.02em;
+	color: #444;
+	font-family: arial;
+}
+
+em {
+	font-weight: normal;
+	font-style: normal;
+}
+
+strong {
+	color: #000088;
+	font-weight: bold;
+}
+
+code {
+	font-family: verdana, tahoma, helvetica, arial, sans-serif;
+	font-size: x-small;
+	font-weight: bold;
+}
+
+label{
+	font-weight: bold;
+}
+
+/****************************
+ * STANDARD ELEMENTS
+ ****************************/
+
+img {
+	border: none;
+}
+
+ul{
+	list-style-type: square;
+	text-align: left;
+}
+
+li {
+	margin: 0px 0px 10px 0px;
+}
+
+form {
+	padding:0;
+	margin: 0;
+}
+
+dl{
+	margin: 30px 70px;
+}
+
+dt{
+	font-weight: bold;
+
+}
+
+dd{
+	margin-bottom: 10px;
+	margin-left: 0;
+	padding-left: 0;
+	text-align: justify;
+}
+
+th{
+	text-align: left;
+	font-weight: bold;
+	background: #E0EAEF;
+	padding: 2px 4px;
+}
+
+/*******************************
+ * HEADER
+ *******************************/
+
+div#header {
+	padding: 10px 25px 0 25px;
+	height: 80px;
+	text-align: center;
+	background: white;
+}
+
+a#netcraft_logo{
+	position: absolute;
+	top: 30px;
+	left: 35px;
+}
+
+div#sitesearch{
+	position: absolute;
+	top: 35px;
+	right: 35px;
+}
+
+/*******************************
+ * CONTENT
+ *******************************/
+
+#container {
+	padding-left: 220px;   /* LC fullwidth */
+	padding-right: 190px;  /* RC width + CC Padding */
+	border-top: 5px solid #4B679F;
+	background: #fff url(../images/colbg.gif) repeat-y 0 0;
+	 overflow: hidden;
+}
+#container .column {
+	position: relative;
+	float: left;
+
+	/* For some reason (probably hasLayout related) the One True Layout method
+	     of creating equal height columns doesn't work in IE7.  Im guessing this is
+	     because the columns are position: relative.  To achieve the background color
+	     on the left column I have used the faux column (bg image) approach*/
+
+	/*padding-bottom: 20010px;   X + padding-bottom */
+	/*margin-bottom: -20000px;   X */
+
+}
+
+div#content{
+	width: 100%;
+	padding: 0 15px;
+}
+
+/*******************************
+ * NAVIGATION
+ *******************************/
+
+div#nav{
+	width: 200px;			/* LC width */
+	padding: 10px; 		/* LC padding */
+	right: 250px;         /* LC width + CC padding + Body margin */
+	margin-left: -100%;
+	background: #f7f7f7;
+}
+
+/*** IE6 Fix ***/
+* html #nav {
+	left: 160px;           /* RC width */
+}
+
+div#nav h4{
+	border-bottom: 1px solid #cacaca;
+	font-size: 140%;
+	color: #555;
+	padding: 0 0 0 0;
+	margin: 20px 0 0 10px;
+	letter-spacing: 0.05em;
+	font-family: "Trebuchet MS";
+    font-weight: normal;
+}
+
+div#nav h5{
+	font-size: 1em;
+	font-weight: bold;
+	margin: 10px 0 0 10px;
+	padding: 0;
+}
+
+div#nav ul{
+	list-style-type: none;
+	margin-left: 15px;
+	padding-left: 0;
+	margin-top: 5px;
+}
+
+div#nav li{
+	margin: 2px 0;
+}
+
+div#nav li a{
+	display: block;
+	background: url(../images/smallarrow.jpg) no-repeat 0 50%;
+	padding-left: 20px;
+	border-bottom: none;
+}
+
+div#nav div#wtsr{
+	margin-left: 10px;
+	padding-top: 10px;
+}
+
+div#nav div#wtsr strong{
+	font-size: 1em;
+	letter-spacing: 0.05em;
+        display: block;
+}
+
+input#wtsr_query{
+	border-color:#3E5C8F;
+	border-style:solid;
+	border-width:1px 0pt 1px 1px;
+	color:#555555;
+	display:block;
+	float:left;
+	margin:0pt;
+	padding:2px;
+	width:160px;
+}
+
+div#nav div#wtsr a{
+	border-color:#3E5C8F;
+	border-style:solid;
+	border-width:1px 1px 1px 0pt;
+	display:block;
+	float:left;
+	margin:0pt;
+	padding:0pt;
+	width:21px;
+}
+
+div#nav div#wtsr  a img{
+	border: none;
+}
+
+/*******************************
+ * RIGHT COL
+ *******************************/
+
+div#right_col{
+	width: 160px;          /* RC width */
+	margin-right: -190px;  /* RC width + CC padding */
+	text-align: center;
+	padding-top: 10px;
+}
+
+a#rsslink{
+	margin-bottom: 10px;
+	display: block;
+	margin: 10px auto;
+	width: 100px;
+}
+
+span.advert-tag {
+	color:#CCCCCC;
+	font-size: 1em;
+	font-variant:small-caps;
+	margin-left:10px;
+}
+
+
+/*******************************
+ * BLOG POST
+ *******************************/
+
+ .blogtitle{
+	margin-top: 30px;
+ }
+
+ .blogtitle h2,  .blogtitle h1{
+	border-bottom: 1px solid #cacaca;
+	width: 100%;
+	padding-bottom: 3px;
+ }
+
+ .blogbody{
+	padding: 0 10px;
+	font-family: verdana;
+ }
+
+ .blogbody img{
+	display: block;
+	margin: 0 auto !important;
+ }
+
+ .posted{
+	border: 1px solid #ddd;
+	border-width: 1px 0;
+	background: #f7f7f7;
+	color: #666;
+	padding: 3px 5px;
+ }
+
+.associated-links{
+	/* for future use */
+}
+
+.associated-links .col{
+	width: 49%;
+	float: left;
+}
+
+.associated-links h3{
+	margin-left: 20px;
+	color: #555;
+}
+
+.associated-links ul{
+	/* for future use */
+}
+
+.associated-links ul li{
+	/* for future use */
+}
+
+/*******************************
+ * COPYRIGHT
+ *******************************/
+
+div#footer{
+	clear: both;
+	background: white;
+}
+
+
+#copyright {
+	border-bottom:1px solid #CCCCCC;
+	border-top:1px solid #CCCCCC;
+	color:#003060;
+	font-family:verdana,arial,sans-serif;
+	font-size:xx-small;
+	font-weight:bold;
+	letter-spacing:0.2em;
+	line-height:140%;
+	padding:2px;
+	text-align:center;
+	text-transform:uppercase;
+	margin: 10px 0;
+}
+
+/*******************************
+ * SOCIAL BOOKMARKING
+ *******************************/
+
+.social-bookmarks-footer{
+	text-align: center;
+	width: 530px;
+	border: 1px solid #cacaca;
+	padding: 3px 14px;
+	margin: 10px auto;
+}
+
+.social-bookmarks-footer b{
+	color: #888;
+}
+
+.social-bookmarks-footer a{
+	padding: 0 5px;
+}
+
+/*******************************
+ * ADVERTS
+ *******************************/
+
+.advertisinglinks{
+  background:none repeat scroll 0 0 #F7F7F7;
+  border:1px solid #CCCCCC;
+  margin:0 auto;
+  text-align:center;
+  width:90%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.advertisinglinks table{
+	width: 100%;
+	text-align: left;
+}
+
+.advertisinglinks table td{
+	width: 33%;
+}
+
+@media screen {
+.print_show {
+	display:none;
+}
+}
+@media print{
+
+body{
+  margin: 0;
+  background: #fff;
+  border: none;
+}
+
+.premiumadvertisinglinks, #letterbox, #nav, #skyscraper, #sitesearch, .advertisinglinks, #right_col, .social-bookmarks-footer
+{display: none !important; }
+
+.print_hide {
+	display:none;
+}
+
+div#header{
+height: 1px !important;
+}
+
+#container {
+margin: 0;
+padding: 0;
+border: 0;
+overflow: visible!important;
+}
+
+#content{ clear: both; width: 80%; margin: 20px auto; }
+.blogtitle { clear: both; padding-top: 30px; }
+
+}
