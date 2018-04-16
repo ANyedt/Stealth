@@ -202,7 +202,7 @@ optional arguments:
 
 最终结果存放在output目录下。 （The final result is stored in the output directory.）
 
-![Q截图2018041614211](http://owv5lapar.bkt.clouddn.com/QQ截图20180416142114.png)
+![Q截图2018041614211](http://owv5lapar.bkt.clouddn.com/20180416142114.png)
 
 ![](http://owv5lapar.bkt.clouddn.com/Snipaste_2018-04-15_19-15-31.jpg)
 
@@ -214,7 +214,7 @@ optional arguments:
 
 ![](http://owv5lapar.bkt.clouddn.com/Snipaste_2018-04-15_20-43-04.jpg)
 
-![Q截图2018041614232](http://owv5lapar.bkt.clouddn.com/QQ截图20180416142326.png)
+![Q截图2018041614232](http://owv5lapar.bkt.clouddn.com/20180416142326.png)
 
 ---
 
