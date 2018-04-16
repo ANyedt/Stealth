@@ -25,7 +25,7 @@ class CMS(object):
             self.url = url
         script_path = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
         finally_path = os.path.join(script_path, 'config/{0}'.format("cms.txt"))
-        with open(finally_path, 'r') as f:
+        with open(finally_path, 'r'，encoding="gbk") as f:
             for line in f:
                 self.q.put(line.split('|'))
 
