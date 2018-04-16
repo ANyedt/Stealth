@@ -230,7 +230,6 @@ optional arguments:
 
 ---
 
-![](http://owv5lapar.bkt.clouddn.com/yumu02.jpg)
 
 ## Author
 
