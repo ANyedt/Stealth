@@ -13,8 +13,8 @@ import requests
 import hashlib
 import gevent
 import time
-import codecs
 import config as config
+import codecs
 from gevent.queue import Queue
 
 
