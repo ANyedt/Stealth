@@ -220,7 +220,7 @@ optional arguments:
 
 ## CHANGE LOG
 
->2018/3/31  	vsesion:1.0.0
+>2018/3/31  	version:1.0.0
 
 ---
 
