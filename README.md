@@ -235,9 +235,9 @@ optional arguments:
 
 > 红日安全 雨幕（yumu） (Red Day Security Rain Screen (yumu))
 >
-> 如有其他建议，或者bug反馈，可发邮件到1096905699@qq.com 
+> 如有其他建议，或者bug反馈，可发邮件到yumu@sec-redclub.com
 >
-> (If you have other suggestions or bug feedback, please send an email to 1096905699@qq.com)
+> (If you have other suggestions or bug feedback, please send an email to yumu@sec-redclub.com)
 
 
 
